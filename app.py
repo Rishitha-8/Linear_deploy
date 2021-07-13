@@ -10,9 +10,9 @@ import pickle
 import pandas as pd
 import streamlit as st 
 import os
-#j
 
-classifier=pickle.load(open(r'C:\Users\NiruSai\Stock-price-prediction-TeamB-main\classifier.pkl','rb'))
+
+classifier=pickle.load(open(r'C:\Users\NiruSai\.spyder-py3\classifier.pkl','rb'))
 
 def welcome():
     return "Welcome All"

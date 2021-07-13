@@ -10,7 +10,7 @@ import pickle
 import pandas as pd
 import streamlit as st 
 import os
-
+#j
 
 classifier=pickle.load(open(r'C:\Users\NiruSai\Stock-price-prediction-TeamB-main\classifier.pkl','rb'))
 

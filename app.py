@@ -12,7 +12,7 @@ import streamlit as st
 import os
 
 
-pickle_in=open("C:\\Users\\NiruSai\\Stock-price-prediction-TeamB-main\\classifier.pkl","rb")
+pickle_in=open("classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
 
 

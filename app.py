@@ -12,7 +12,10 @@ import streamlit as st
 import os
 
 
-classifier=pickle.load(open(r'C:\Users\NiruSai\.spyder-py3\classifier.pkl','rb'))
+pickle_in=open("C:\\Users\\NiruSai\\Stock-price-prediction-TeamB-main\\classifier.pkl","rb")
+classifier=pickle.load(pickle_in)
+
+
 
 def welcome():
     return "Welcome All"

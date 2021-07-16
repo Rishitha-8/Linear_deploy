@@ -31,6 +31,7 @@ def main():
     st.title("stock prediction")
     html_temp = """
     <div style="background-color:tomato;padding:10px">
+    background-image: linear-gradient(to right , #ffd596, #ffc0a1, #ffb0b7, #eda9ce, #c5a8dc, #b7a8de, #a8a7df, #98a7df, #a8a6e2, #baa4e3, #cca2e1, #dda0dd);
     <h2 style="color:white;text-align:center;">Streamlit stock prediction ML App </h2>
     </div>
     """

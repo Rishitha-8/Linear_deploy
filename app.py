@@ -30,16 +30,13 @@ def predict_stock(Volume, Open, High, Low):
 def main():
     st.title("STOCK PREDICTION USING LINEAR REGRESSION MODEL")
     html_temp = """
-    <style>
-    background-image: linear-gradient(#2e7bcf,#2e7bcf);
-    </style>
     <div style="background-color:lightpink;padding:10px">
     <h2 style="color:black;text-align:center;">Stock Prediction App Using Streamlit </h2>
     </div>
     """
     
     st.markdown(html_temp,unsafe_allow_html=True)
-    Volume = st.text_input("Volume",colour='red')
+    Volume = st.text_input("Volume")
     Open = st.text_input("Open")
     High = st.text_input("High")
     Low = st.text_input("Low")

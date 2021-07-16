@@ -44,7 +44,7 @@ def main():
     st.success('The output is {}'.format(result))
     radio = st.radio(label="", options=["Yes", "No"])
     if radio == "Yes":
-        main=open("requirements.txt","rb")
+        main=open("requirements.txt","rb",buffering=30)
         st.write(main)
      
     

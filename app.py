@@ -47,11 +47,8 @@ def main():
     display_code = st.radio("Would you like to display the code?", ("Yes", "No"))
 
     if display_code == "Yes":
-        html_temp = """
-        <div style="background-color:lightpink;padding:10px">
-       <p style="color:black;text-align:center;">Stock Prediction App Using Streamlit </p>
-       </div>
-        """
+        with st.echo():
+            print('hello')
              
 
     

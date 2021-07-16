@@ -28,7 +28,8 @@ def predict_note_authentication(Volume, Open, High, Low):
 
 
 def main():
-    st.title("STOCK PREDICTION USING LINEAR REGRESSION MODEL")
+    #st.title("STOCK PREDICTION USING LINEAR REGRESSION MODEL")
+    <h1 style="color:white;text-align:center;">STOCK PREDICTION USING LINEAR REGRESSION MODEL </h1>
     html_temp = """
     <style>
     background-image: linear-gradient(#2e7bcf,#2e7bcf);

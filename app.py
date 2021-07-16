@@ -31,10 +31,10 @@ def main():
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-    Volume = st.text_input("volume","Type Here")
-    Open = st.text_input("open","Type Here")
-    High = st.text_input("high","Type Here")
-    Low = st.text_input("low","Type Here")
+    Volume = st.text_input("Volume")
+    Open = st.text_input("Open")
+    High = st.text_input("High")
+    Low = st.text_input("Low")
     result=""
     if st.button("Predict"):
         result=predict_stock(Volume, Open, High, Low)

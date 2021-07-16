@@ -29,8 +29,8 @@ def predict_stock(Volume, Open, High, Low):
 def main():
     st.title("STOCK PREDICTION USING LINEAR REGRESSION ")
     html_temp = """
-    <div style="background-color:pink;padding:10px">
-    <h2 style="color:black;text-align:center;">Stock Prediction Using Streamlit </h2>
+    <div style="background-color:teal;padding:10px">
+    <h2 style="color:white;text-align:center;">Stock Prediction Using Streamlit </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)

@@ -42,6 +42,7 @@ def main():
     if st.button("Predict"):
         result=predict_stock(Volume, Open, High, Low)
     st.success('The output is {}'.format(result))
+    print('to show the code')
     radio = st.radio(label="", options=["Yes", "No"])
     if radio == "Yes":
         st.write("import numpy as np")

@@ -24,10 +24,10 @@ def predict_stock(Volume, Open, High, Low):
 
 
 def main():
-    st.title("stock prediction")
+    st.title("STOCK PREDICTION USING LINEAR REGRESSION ")
     html_temp = """
     <div style="background-color:pink;padding:10px">
-    <h2 style="color:black;text-align:center;">Streamlit stock prediction ML App </h2>
+    <h2 style="color:black;text-align:center;">Stock Prediction Using Streamlit </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)

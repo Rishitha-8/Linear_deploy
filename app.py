@@ -14,7 +14,7 @@ import inspect
 pickle_in=open("classifier.pkl","rb")
 model=pickle.load(pickle_in)
 
-main=open("app.py","rb")
+
 
 def welcome():
     return "Welcome All"
@@ -44,6 +44,7 @@ def main():
     st.success('The output is {}'.format(result))
     radio = st.radio(label="", options=["Yes", "No"])
     if radio == "Yes":
+        main=open("app.py","rb")
         st.write(main)
      
     

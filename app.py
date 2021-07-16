@@ -45,6 +45,7 @@ def main():
     radio = st.radio(label="", options=["Yes", "No"])
     if radio == "Yes":
         st.write("import numpy as np")
+        st.write("import numpy as np")
 
      
     

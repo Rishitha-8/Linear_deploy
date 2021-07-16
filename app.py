@@ -27,7 +27,7 @@ def main():
     st.title("stock prediction")
     html_temp = """
     <div style="background-color:pink;padding:10px">
-    <h2 style="color:white;text-align:center;">Streamlit stock prediction ML App </h2>
+    <h2 style="color:black;text-align:center;">Streamlit stock prediction ML App </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)

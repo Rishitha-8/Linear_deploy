@@ -34,7 +34,7 @@ def main():
     background-image: linear-gradient(#2e7bcf,#2e7bcf);
     </style>
     <div style="background-color:lightpink;padding:10px">
-    <h2 style="color:black;text-align:center;">Streamlit stock prediction  App </h2>
+    <h2 style="color:black;text-align:center;">Stock Prediction App Using Streamlit </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)

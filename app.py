@@ -37,9 +37,10 @@ def main():
     <h2 style="color:black;text-align:center;">Stock Prediction App Using Streamlit </h2>
     </div>
     """
-    st.background(red)
+    colour=red
+    st.background(colour)
     st.markdown(html_temp,unsafe_allow_html=True)
-    Volume = st.text_input("Volume")
+    #Volume = st.text_input("Volume",colour='red')
     Open = st.text_input("Open")
     High = st.text_input("High")
     Low = st.text_input("Low")

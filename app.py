@@ -44,6 +44,14 @@ def main():
     if st.button("Predict"):
         result=predict_stock(Volume, Open, High, Low)
     st.success('The output is {}'.format(result))
+    display_code = st.radio("Would you like to display the code?", ("Yes", "No"))
+
+    if display_code == "Yes":
+        with st.echo():
+             main()
+
+    else:
+        nothing
     
 if __name__=='__main__':
     main()

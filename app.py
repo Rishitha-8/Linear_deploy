@@ -39,6 +39,9 @@ def main():
     if st.button("Predict"):
         result=predict_stock(Volume, Open, High, Low)
     st.success('The output is {}'.format(result))
+    if radio == "Yes":
+        st.write(predict_stock)
+     
     
 if __name__=='__main__':
     main()

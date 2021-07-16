@@ -42,7 +42,7 @@ def main():
     st.success('The output is {}'.format(result))
     radio = st.radio(label="", options=["Yes", "No"])
     if radio == "Yes":
-        st.write('app.py')
+        st.write('app.py','app.py')
      
     
 if __name__=='__main__':

@@ -28,13 +28,12 @@ def predict_note_authentication(Volume, Open, High, Low):
 
 
 def main():
-    #st.title("STOCK PREDICTION USING LINEAR REGRESSION MODEL")
-    <h1 style="color:white;text-align:center;">STOCK PREDICTION USING LINEAR REGRESSION MODEL </h1>
+    st.title("STOCK PREDICTION USING LINEAR REGRESSION MODEL")
     html_temp = """
     <style>
     background-image: linear-gradient(#2e7bcf,#2e7bcf);
     </style>
-    <div style="background-color:tomato;padding:10px">
+    <div style="background-color:lightpink;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit stock prediction  App </h2>
     </div>
     """

@@ -47,8 +47,8 @@ def main():
     display_code = st.radio("Would you like to display the code?", ("Yes", "No"))
 
     if display_code == "Yes":
-        with st.echo():
-             main()
+        hello
+             
 
     
     

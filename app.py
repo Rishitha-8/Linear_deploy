@@ -44,7 +44,7 @@ def main():
     if radio == "Yes":
         html_temp = """
         <div style="background-color:pink;padding:10px">
-        <h2 style="color:black;text-align:center;">Stock Prediction Using Streamlit </h2>
+        <p style="color:black;text-align:center;">Stock Prediction Using Streamlit <p>
         </div>
         """
         #st.write("")

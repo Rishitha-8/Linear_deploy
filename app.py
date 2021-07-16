@@ -11,14 +11,14 @@ import streamlit as st
 import os
 
 pickle_in=open("classifier.pkl","rb")
-classifier=pickle.load(pickle_in)
+model=pickle.load(pickle_in)
 
 def welcome():
     return "Welcome All"
 
 
-def predict_note_authentication(Volume, Open, High, Low):
-    prediction=classifier.predict([[Volume, Open, High, Low]])
+def predict_stock(Volume, Open, High, Low):
+    prediction=model.predict([[Volume, Open, High, Low]])
     print(prediction)
     return prediction
 
@@ -37,7 +37,7 @@ def main():
     Low = st.text_input("low","Type Here")
     result=""
     if st.button("Predict"):
-        result=predict_note_authentication(Volume, Open, High, Low)
+        result=predict_stock(Volume, Open, High, Low)
     st.success('The output is {}'.format(result))
     
 if __name__=='__main__':

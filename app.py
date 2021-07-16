@@ -42,12 +42,7 @@ def main():
     st.success('The output is {}'.format(result))
     radio = st.radio(label="", options=["Yes", "No"])
     if radio == "Yes":
-        html_temp = """
-        <div style="background-color:pink;padding:10px">
-        <p style="color:black;text-align:center;">Stock Prediction Using Streamlit <p>
-        </div>
-        """
-        #st.write("")
+        st.write(main)
      
     
 if __name__=='__main__':

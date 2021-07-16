@@ -9,6 +9,7 @@ import pickle
 import pandas as pd
 import streamlit as st 
 import os
+import inspect
 
 pickle_in=open("classifier.pkl","rb")
 model=pickle.load(pickle_in)
@@ -39,6 +40,7 @@ def main():
     if st.button("Predict"):
         result=predict_stock(Volume, Open, High, Low)
     st.success('The output is {}'.format(result))
+    radio = st.radio(label="", options=["Yes", "No"])
     if radio == "Yes":
         st.write(predict_stock)
      

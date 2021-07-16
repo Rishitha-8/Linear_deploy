@@ -50,8 +50,9 @@ def main():
         with st.echo():
              main()
 
-    else:
-        nothing
+    
+    
+  
     
 if __name__=='__main__':
     main()
